@@ -3,7 +3,7 @@
   import style from "./StudentLogin.module.css";
  
   import {NavLink , useHistory} from "react-router-dom";
- import data from '.../db.json';
+  
    import {useState} from "react" ;
    import axios from "axios";
 
@@ -30,7 +30,7 @@
 
       async function handleLogin()
        {
-          let value  = await axios.get(".../db.json");
+          let value  = await axios.get("");
 
              for(let i=0 ;i<value.data.length ;i++)
              {
