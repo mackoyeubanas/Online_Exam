@@ -30,7 +30,7 @@
 
       async function handleLogin()
        {
-          let value  = await axios.get("http://localhost:3333/user");
+          let value  = await axios.get("db.json");
 
              for(let i=0 ;i<value.data.length ;i++)
              {
