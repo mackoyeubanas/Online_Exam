@@ -14,7 +14,6 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-     "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "CI= GENERATE_SOURCEMAP=false react-scripts --openssl-legacy-provider build",
     "test": "react-scripts --openssl-legacy-provider test",
