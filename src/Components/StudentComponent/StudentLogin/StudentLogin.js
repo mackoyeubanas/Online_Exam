@@ -30,7 +30,7 @@
 
       async function handleLogin()
        {
-          let value  = await axios.get("");
+          let value  = await axios.get("https://entranceexam.netlify.app/db.json");
 
              for(let i=0 ;i<value.data.length ;i++)
              {
